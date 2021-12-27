@@ -38,7 +38,10 @@
 >  <br>
 >
 > #### 숫자형
-> * 숫자형(number type) 은 정수 및 부동소수점 숫자(floating point number)를 나타냅니다. <br>
+> * 숫자형(number type) 은 정수 및 부동소수점 숫자(floating point number)를 나타냅니다.
+>
+> <br>
+> <br>
 >
 > #### 변수
 > * var는 let과 거의 동일하게 동작합니다. var도 let처럼 변수를 선언하는 데 쓰이죠. 다만 var는 ‘오래된’ 방식입니다. <br>
