@@ -37,9 +37,7 @@
 > ```
 >  <br>
 >
-> #### 숫자형
-> * 숫자형(number type) 은 정수 및 부동소수점 숫자(floating point number)를 나타냅니다.
->
+> .
 > <br>
 > <br>
 >
