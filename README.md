@@ -60,7 +60,8 @@
 > let age;
 > alert(age); // 'undefined'가 출력됩니다.
 > ``` 
-> <br><br>
+> <br>
+> <br>
 >
 > #### null 값
 > * null 값은 지금까지 소개한 자료형 중 어느 자료형에도 속하지 않는 값입니다.
