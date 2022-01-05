@@ -117,3 +117,5 @@
 > ```c
 > result = prompt(title, [default]);
 > ``` 
+> title : 사용자에게 보여줄 문자열 <br>
+> default : 입력 필드의 초깃값(선택값) <br>
