@@ -121,6 +121,7 @@
 > result = prompt(title, [default]);
 > ``` 
 > <br>
+>
 > * prompt 함수는 사용자가 입력 필드에 기재한 문자열을 반환합니다. 사용자가 입력을 취소한 경우는 null이 반환됩니다.
 >
 > ```c
