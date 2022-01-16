@@ -130,6 +130,6 @@
 > alert(`당신의 나이는 ${age}살 입니다.`); // 당신의 나이는 100살입니다.
 > ``` 
 >
-> :warning: Internet Explorer(IE)에서는 항상 '기본값’을 넣어주세요. <br>
+> :warning: Internet Explorer(IE)에서는 항상 '기본값’을 넣어주세요. <br>  
 > 
 
