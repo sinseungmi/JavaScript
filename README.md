@@ -145,7 +145,8 @@
 > 
 > str.substr(start[, length]) <br>
 > str.substring(indexStart[, indexEnd]) <br>
-> str.slice(beginIndex[, endIndex]) <br> <br>
+> str.slice(beginIndex[, endIndex]) <br>
+> <br>
 >
 > #### 형 변환 <br>
 > - 함수와 연산자에 전달되는 값은 대부분 적절한 자료형으로 자동 변환됩니다. 이런 과정을 "형 변환(type conversion)"이라고 합니다.
