@@ -146,6 +146,7 @@
 > str.substr(start[, length]) <br>
 > str.substring(indexStart[, indexEnd]) <br>
 > str.slice(beginIndex[, endIndex]) <br>
+> 
 > <br>
 >
 > #### 형 변환 <br>
