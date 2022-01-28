@@ -143,9 +143,6 @@
 > 4. 일부 호출: 변수에서 지정한 전체 배열값[인덱스 번호 지정] <br>
 > 5. length: 배열의 갯수를 반환하는 속성 = 변수값.length <br> <br>
 > 
-> str.substr(start[, length]) <br>
-> str.substring(indexStart[, indexEnd]) <br>
-> str.slice(beginIndex[, endIndex]) <br>
 > 
 > <br>
 >
