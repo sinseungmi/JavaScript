@@ -140,6 +140,7 @@
 > <br>
 > <br>
 > 
+> #### 컨펌 대화상자
 > ```c
 > result = confirm(question);
 > ``` 
