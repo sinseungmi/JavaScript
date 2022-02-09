@@ -198,4 +198,31 @@
 > 
 > alert(age); // NaN, 형 변환이 실패합니다.
 > ```
-> 숫자 이외의 글자가 들어가 있는 문자열을 숫자형으로 변환하려고 하면, 그 결과는 NaN이 됩니다. 
+> 숫자 이외의 글자가 들어가 있는 문자열을 숫자형으로 변환하려고 하면, 그 결과는 NaN이 됩니다.
+> 
+> <br>
+>
+> ##### 예시
+> ```c
+> alert( Number("   123   ") ); // 123
+> alert( Number("123z") );      // NaN ("z"를 숫자로 변환하는 데 실패함)
+> alert( Number(true) );        // 1
+> alert( Number(false) );       // 0
+> ```
+> null과 undefined은 숫자형으로 변환 시 결과가 다르다는 점에 유의.
+> null은 0이 되고 undefined는 NaN이 됩니다.
+>
+> <br> <br>
+>
+> #### 불린형으로 변환
+> Boolean(value)를 호출하면 명시적으로 불리언으로의 형 변환을 수행할 수 있습니다. <br>
+> 불린형으로 변환 시 적용되는 규칙은 다음과 같습니다. 
+> * 숫자 0, 빈 문자열, null, undefined, NaN과 같이 직관적으로도 “비어있다고” 느껴지는 값들은 false가 됩니다.
+> * 그 외의 값은 true로 변환됩니다.
+> ```c
+> alert( Boolean(1) ); // 숫자 1(true)
+> alert( Boolean(0) ); // 숫자 0(false)
+>
+> alert( Boolean("hello") ); // 문자열(true)
+> alert( Boolean("") ); // 빈 문자열(false)
+> ```
