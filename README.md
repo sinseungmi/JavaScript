@@ -226,3 +226,9 @@
 > alert( Boolean("hello") ); // 문자열(true)
 > alert( Boolean("") ); // 빈 문자열(false)
 > ```
+> ###### :warning: 주의: 문자열 "0"은 true입니다.
+> PHP 등의 일부 언어에선 문자열 "0"을 false로 취급합니다. 그러나 자바스크립트에선 비어 있지 않은 문자열은 언제나 true입니다.
+> ```c
+> alert( Boolean("0") ); // true
+> alert( Boolean(" ") ); // 공백이 있는 문자열도 비어있지 않은 문자열이기 때문에 true로 변환됩니다.
+> ```
