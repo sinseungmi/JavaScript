@@ -1,4 +1,4 @@
-# Javascript
+> # � Javascript
 > <script> 태그를 이용하면 자바스크립트 프로그램을 HTML 문서 대부분의 위치에 삽입할 수 있습니다. <br><br>
 > 
 #### 외부 스크립트 
