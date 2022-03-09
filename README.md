@@ -364,3 +364,8 @@
 > ```c
 > alert( null === undefined ); // false
 > ```
+>
+> <br> <br>
+> 
+> forEach는 for문과 마찬가지로 반복적인 기능을 수행할 때 사용합니다. <br>
+> 하지만 for문처럼 index와 조건식, increase를 정의하지 않아도 callback 함수를 통해 기능을 수행할 수 있습니다.
